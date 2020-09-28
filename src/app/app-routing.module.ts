@@ -3,11 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { SubcomponentComponent } from "./subcomponent/subcomponent.component";
 
-const routes: Routes = [
-  { path: "dummy", component: AppComponent },
-
-  { path: "", redirectTo: "/dummy", pathMatch: "full" },
-];
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
